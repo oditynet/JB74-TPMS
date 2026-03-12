@@ -14,6 +14,9 @@ GDO0   → D2   (прерывание)
 
 ```
 adafruit-nrfutil dfu serial -pkg /home/odity/.cache/arduino/sketches/688358114825BA110B7C0F3D6D14D40D/TPMS.ino.zip -p /dev/ttyACM0 -b 115200
+```
+
+```
 Upgrading target on /dev/ttyACM0 with DFU package /home/odity/.cache/arduino/sketches/688358114825BA110B7C0F3D6D14D40D/TPMS.ino.zip. Flow control is disabled, Dual bank, Touch disabled
 ########################################
 ########################################
