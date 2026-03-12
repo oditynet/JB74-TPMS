@@ -1,5 +1,6 @@
 # JB74-TPMS
 
+```
 CC1101 →  nRF52840
 ------------------------
 VCC    → 3.3V  (важно: не 5V!)
@@ -9,6 +10,7 @@ SCLK   → D8   (SCK)
 MOSI   → D10  (MOSI)
 MISO   → D9   (MISO)
 GDO0   → D2   (прерывание)
+```
 
 ```
 adafruit-nrfutil dfu serial -pkg /home/odity/.cache/arduino/sketches/688358114825BA110B7C0F3D6D14D40D/TPMS.ino.zip -p /dev/ttyACM0 -b 115200
